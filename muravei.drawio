@@ -1,0 +1,157 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="Страница-1" id="n5Ks1FtzehSnFb8vBC1W">
+    <mxGraphModel dx="1811" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" value="&lt;span style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, &amp;quot;Arial Unicode MS&amp;quot;, sans-serif; font-size: 24px; font-weight: 400; text-align: start; white-space-collapse: preserve; background-color: rgba(0, 0, 0, 0.05);&quot;&gt;class queen of the ant:public Ants&lt;/span&gt;" vertex="1">
+          <mxGeometry height="160" width="200" x="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-2" parent="qWvABrrR4GyWGTUJsS_f-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space-collapse: preserve; background-color: rgba(0, 0, 0, 0.05);&quot;&gt;&lt;font face=&quot;YS Text, -apple-system, BlinkMacSystemFont, Arial, Helvetica, Arial Unicode MS, sans-serif&quot;&gt;methods:&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space-collapse: preserve; background-color: rgba(0, 0, 0, 0.05);&quot;&gt;&lt;font face=&quot;YS Text, -apple-system, BlinkMacSystemFont, Arial, Helvetica, Arial Unicode MS, sans-serif&quot;&gt;+10 to quantity of random ants if &lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgba(0, 0, 0, 0.05); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, &amp;quot;Arial Unicode MS&amp;quot;, sans-serif; white-space-collapse: preserve; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fertilization += 1&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: rgba(0, 0, 0, 0.05); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, &amp;quot;Arial Unicode MS&amp;quot;, sans-serif; white-space-collapse: preserve; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;when food &amp;lt; 10% hp = 0&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="90" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1T8-A_FKuSDTrzDLaNQM-5" parent="qWvABrrR4GyWGTUJsS_f-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="fields:&lt;div&gt;fertilization&lt;/div&gt;&lt;div&gt;food&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1T8-A_FKuSDTrzDLaNQM-25" edge="1" parent="1" source="qWvABrrR4GyWGTUJsS_f-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qWvABrrR4GyWGTUJsS_f-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1T8-A_FKuSDTrzDLaNQM-26" edge="1" parent="1" source="qWvABrrR4GyWGTUJsS_f-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qWvABrrR4GyWGTUJsS_f-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1T8-A_FKuSDTrzDLaNQM-27" edge="1" parent="1" source="qWvABrrR4GyWGTUJsS_f-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qWvABrrR4GyWGTUJsS_f-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" value="&lt;span style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, &amp;quot;Arial Unicode MS&amp;quot;, sans-serif; font-size: 24px; font-weight: 400; text-align: start; white-space-collapse: preserve; background-color: rgba(0, 0, 0, 0.05);&quot;&gt;class war ants: public Ants&lt;/span&gt;" vertex="1">
+          <mxGeometry height="200" width="200" x="80" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-7" parent="qWvABrrR4GyWGTUJsS_f-6" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, &amp;quot;Arial Unicode MS&amp;quot;, sans-serif; font-size: 24px; text-align: start; white-space-collapse: preserve; background-color: rgba(0, 0, 0, 0.05);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-12" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" value="&lt;span style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, &amp;quot;Arial Unicode MS&amp;quot;, sans-serif; font-size: 24px; font-weight: 400; text-align: start; white-space-collapse: preserve; background-color: rgba(0, 0, 0, 0.05);&quot;&gt;class male ants:public Ants&lt;/span&gt;" vertex="1">
+          <mxGeometry height="200" width="200" x="80" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="1T8-A_FKuSDTrzDLaNQM-6" parent="qWvABrrR4GyWGTUJsS_f-12" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="methods:&lt;div&gt;fertilization of Qween +1 for 1 ant&lt;/div&gt;&lt;div&gt;existence = 0 if tank = 0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="20" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1T8-A_FKuSDTrzDLaNQM-7" parent="qWvABrrR4GyWGTUJsS_f-12" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;nbsp;fields:&lt;div&gt;tank=10&lt;/div&gt;&lt;div&gt;-1tank=+1fertilization&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1T8-A_FKuSDTrzDLaNQM-15" edge="1" parent="1" source="qWvABrrR4GyWGTUJsS_f-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qWvABrrR4GyWGTUJsS_f-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1T8-A_FKuSDTrzDLaNQM-16" edge="1" parent="1" source="qWvABrrR4GyWGTUJsS_f-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1T8-A_FKuSDTrzDLaNQM-24" edge="1" parent="1" source="qWvABrrR4GyWGTUJsS_f-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="1T8-A_FKuSDTrzDLaNQM-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-16" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" value="&lt;span style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, &amp;quot;Arial Unicode MS&amp;quot;, sans-serif; font-size: 24px; font-weight: 400; text-align: start; white-space-collapse: preserve; background-color: rgba(0, 0, 0, 0.05);&quot;&gt;class worker ants:public ants&lt;/span&gt;" vertex="1">
+          <mxGeometry height="200" width="200" x="80" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-21" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;class Soldier: public war ants&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="110" width="200" x="360" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-22" parent="qWvABrrR4GyWGTUJsS_f-21" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-65" parent="qWvABrrR4GyWGTUJsS_f-21" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="deal damage" vertex="1">
+          <mxGeometry height="40" width="91" x="25" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-23" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="&lt;span style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, &amp;quot;Arial Unicode MS&amp;quot;, sans-serif; font-weight: 400; text-align: start; white-space-collapse: preserve; background-color: rgba(0, 0, 0, 0.05);&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt; class Invaders: public war ants&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="200" x="360" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-24" parent="qWvABrrR4GyWGTUJsS_f-23" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, &amp;quot;Arial Unicode MS&amp;quot;, sans-serif; text-align: start; white-space-collapse: preserve; background-color: rgba(0, 0, 0, 0.05);&quot;&gt;&lt;font&gt;plus 20% damage for all the war ants&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;YS Text, -apple-system, BlinkMacSystemFont, Arial, Helvetica, Arial Unicode MS, sans-serif&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: rgba(0, 0, 0, 0.05);&quot;&gt;make from workers to soldiers&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="50" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-63" parent="qWvABrrR4GyWGTUJsS_f-23" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="deal damage" vertex="1">
+          <mxGeometry height="30" width="60" x="50" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-28" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="&lt;span style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, &amp;quot;Arial Unicode MS&amp;quot;, sans-serif; font-weight: 400; text-align: start; white-space-collapse: preserve; background-color: rgba(0, 0, 0, 0.05);&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;class Guardian: public war ants &lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="360" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-54" parent="qWvABrrR4GyWGTUJsS_f-28" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font&gt;plus 30% hp to queen while their number less than 100&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="15" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-43" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="&lt;font style=&quot;font-size: 18px; font-weight: normal;&quot;&gt;class Builder: public worker ants&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="220" x="330" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="1T8-A_FKuSDTrzDLaNQM-9" parent="qWvABrrR4GyWGTUJsS_f-43" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="methods:&lt;div&gt;if shield&amp;lt;70% add + 0.01% to shield for 1 ant&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="136" x="44" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-46" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;class&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, &amp;quot;Arial Unicode MS&amp;quot;, sans-serif; font-weight: 400; text-align: start; white-space-collapse: preserve; background-color: rgba(0, 0, 0, 0.05);&quot;&gt;breadwinner:public worker ants&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="220" x="330" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="1T8-A_FKuSDTrzDLaNQM-13" parent="qWvABrrR4GyWGTUJsS_f-46" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="methods:&lt;div&gt;+0.01% food for Qween for 1 ant&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="90" x="50" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1T8-A_FKuSDTrzDLaNQM-18" edge="1" parent="1" source="qWvABrrR4GyWGTUJsS_f-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.318;entryDx=0;entryDy=0;entryPerimeter=0;" target="qWvABrrR4GyWGTUJsS_f-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="580" />
+              <mxPoint x="-40" y="51" />
+            </Array>
+            <mxPoint y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1T8-A_FKuSDTrzDLaNQM-20" edge="1" parent="1" source="qWvABrrR4GyWGTUJsS_f-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qWvABrrR4GyWGTUJsS_f-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="580" />
+              <mxPoint x="-40" y="370" />
+            </Array>
+            <mxPoint x="60" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1T8-A_FKuSDTrzDLaNQM-28" edge="1" parent="1" source="qWvABrrR4GyWGTUJsS_f-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qWvABrrR4GyWGTUJsS_f-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="580" />
+              <mxPoint x="-40" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1T8-A_FKuSDTrzDLaNQM-29" edge="1" parent="1" source="qWvABrrR4GyWGTUJsS_f-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qWvABrrR4GyWGTUJsS_f-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="580" />
+              <mxPoint x="-40" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-50" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;class Ants:public Anthill&lt;/font&gt;" vertex="1">
+          <mxGeometry height="200" width="200" x="-310" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-51" parent="qWvABrrR4GyWGTUJsS_f-50" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;fields:&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;-hp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;-skill;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;-damage&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;-number&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;-existence&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="155" x="22.5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-56" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=80;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;class Anthill&lt;/font&gt;" vertex="1">
+          <mxGeometry height="200" width="200" x="-630" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-57" parent="qWvABrrR4GyWGTUJsS_f-56" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;fields:&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;-shield&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;-hp&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;-existence&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;-time&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="45" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-58" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=60;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;class Apphids&lt;/font&gt;" vertex="1">
+          <mxGeometry height="200" width="200" x="-310" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-60" parent="qWvABrrR4GyWGTUJsS_f-58" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="fields:&lt;div&gt;-number&lt;/div&gt;&lt;div&gt;-mood&lt;/div&gt;&lt;div&gt;-hungry&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="60" x="70" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-62" parent="qWvABrrR4GyWGTUJsS_f-58" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="methods:&lt;div&gt;when ant eat 1 apphid +500 hp&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvABrrR4GyWGTUJsS_f-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="deal damage" vertex="1">
+          <mxGeometry height="30" width="60" x="390" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="1T8-A_FKuSDTrzDLaNQM-21" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" value="class&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, &amp;quot;Arial Unicode MS&amp;quot;, sans-serif; font-size: 24px; font-weight: 400; text-align: start; white-space-collapse: preserve; background-color: rgba(0, 0, 0, 0.05);&quot;&gt;shepherd:public worker ants&lt;/span&gt;" vertex="1">
+          <mxGeometry height="160" width="220" x="330" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="1T8-A_FKuSDTrzDLaNQM-22" parent="1T8-A_FKuSDTrzDLaNQM-21" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;methods:&lt;/div&gt;&lt;div&gt;+0.01% for mood of anthills for 1 ant (for each)&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="55" y="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
