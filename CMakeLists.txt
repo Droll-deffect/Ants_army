@@ -7,4 +7,7 @@ include_directories(.)
 
 add_executable(Ants_army
         main.cpp
-        Anthill.h)
+        Anthill.h
+        Ants.hpp
+        Ants.hpp
+        Apphids.h)
