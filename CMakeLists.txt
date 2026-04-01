@@ -10,4 +10,11 @@ add_executable(Ants_army
         Anthill.h
         Ants.hpp
         Ants.hpp
-        Apphids.h)
+        Apphids.h
+        Anthill.h
+        WorkerAnts.h
+        Builder.h
+        Builder.cpp
+        Breadwinner.h
+        Breadwinner.cpp
+        Time.hpp)

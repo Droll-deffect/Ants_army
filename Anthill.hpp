@@ -9,14 +9,13 @@ private:
     bool Existence;
     double HealPoint;
     double time;
-    Anthill(double Shield, bool Existence, double HealPoint,    double time){
-        Shield = Shield;
-        Existence = Existence;
-        HealPoint = HealPoint;
+    Anthill(){
+        Shield = 1000;
+        Existence = true;
+        HealPoint = 2000;
         time = time;
     };
     static Anthill* anthill_;
-    strin value;
 public:
     static Anthill& getInstance() {
         static Anthill instance;
@@ -24,5 +23,5 @@ public:
     }
 
 };
-#include "Anthill.h"
+#include "Anthill.hpp"
 #endif //ANTS_ARMY_ANTHILL_H
